@@ -1,6 +1,19 @@
-# angular-seed — the seed for AngularJS apps
+# angular-seed — upgraded seed for AngularJS 1 apps
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
+## What's new?
+
+This project is a fork of [angular/angular-seed](https://github.com/angular/angular-seed)
+which has been updated to:
+- use `angular-ui-router` instead of `angular-route`
+- follow John Papa's [Angular 1 Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md)
+- **TODO**: use [Bootstrap 3](http://getbootstrap.com/)
+- **TODO**: use [SASS](http://sass-lang.com/)
+- **TODO**: build with [Gulp](http://gulpjs.com/)
+- **TODO**: run with [live-server](https://www.npmjs.com/package/live-server)
+
+## Abstract
+
+This project is an application skeleton for a typical [AngularJS 1](http://angularjs.org/) web app.
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
 projects.
 
