@@ -32,6 +32,6 @@
         controllerAs: 'vm'
       });
 
-      $urlRouterProvider.when('/state2', '/state2/a');
+    $urlRouterProvider.when('/state2', '/state2/a');
   }
 })();

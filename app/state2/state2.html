@@ -1,9 +1,13 @@
-<ul class="menu">
-  <li><a ui-sref="state2.a">state2A</a></li>
-  <li><a ui-sref="state2.b">state2B</a></li>
-</ul>
-<div ui-view></div>
-<p>
-  Showing of 'interpolate' filter:
-  {{ 'Current version is v%VERSION%.' | interpolate }}
-</p>
+<div class="row">
+  <div class="col-md-3 sidenav sidenav-left">
+    <ul class="nav nav-pills nav-stacked">
+      <li role="presentation" ui-sref-active="active"><a ui-sref="state2.a">State 2 A</a></li>
+      <li role="presentation" ui-sref-active="active"><a ui-sref="state2.b">State 2 B</a></li>
+    </ul>
+  </div>
+  <div class="col-md-9">
+
+    <div ui-view></div>
+
+  </div>
+</div>
